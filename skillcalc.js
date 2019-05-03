@@ -152,8 +152,7 @@ function drawSkilltree(id) {
     skillbox11 = "</td></tr><tr>";
     skillbox12 = "</tr></table>";
 
-    document.getElementById("skilltree").style.backgroundImage = "url('img/bg"+id+".gif')";
-    document.getElementById("skilltree").element.classList.add("bg"+id+"");
+    document.getElementById("skilltree").style.backgroundImage = "url('https://synthsy.github.io/Arks-Layer-Skill-Sim-Dark/img/bg"+id+"_dark.gif')";
 
     pos = document.getElementById("skilltree");
     posx = pos.offsetLeft;
