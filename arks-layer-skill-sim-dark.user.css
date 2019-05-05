@@ -1,0 +1,195 @@
+@-moz-document domain("arks-layer.com"), url-prefix("https://arks-layer.com/skillsim/") {
+/* ==UserStyle==
+@name        Arks-Layer Skill Sim Dark
+@namespace   Arks-Layer
+@version     1.0.0
+@license     CC-BY-SA-4.0
+@author      SynthSy
+ 
+==/UserStyle== */
+
+    body {
+        background-color: #242424!important;
+        color: #e2e2e2;
+    }
+    table.maintable {
+        background-color: #242424!important;
+    }
+
+    div.content {
+	    background-color: #242424;
+        color: #e2e2e2;
+    }
+    
+    div.content > h3 {
+	    background-color: #242424;
+        color: #e2e2e2;
+    }
+    
+    div.content > table > tbody > tr > td > textarea {
+	    background-color: #242424;
+        color: #e2e2e2;
+    }
+    
+    
+    h2,h3 {
+        background: #393e43;
+        border-left: 5px solid #393e43;
+    } 
+    
+    .tabcontent {
+        background-color: #242424;
+        color: #e2e2e2; 
+    }
+      
+    .bg-tweaks {
+        width: 1017px!important;
+        height: 1025px!important;
+        background-repeat: no-repeat!important;
+    }
+    
+    .bg-dark {
+        background-blend-mode: multiply;
+    }
+    
+    table.skill {
+        background-color: #242424!important;
+        color: #e2e2e2!important;
+    }
+    
+    #desc {
+        background-color: #242424!important;
+        color: #e2e2e2;
+    }
+    
+    span.desc > h3 {
+        color:#e2e2e2;
+    }
+    
+    span.descdetail > table.data > tbody > tr > td {
+        background-color: #242424!important;
+    }
+    #optionlayer {
+        background-color: #242424!important;
+        color: #e2e2e2;
+    }
+    
+    .t_16,.t_13, div#optionlayer > h3 {
+        color: #e2e2e2;
+    }
+    
+    .unselected {
+        background-color: #242424!important;
+    }
+    
+    .tabrow li.selected {
+      background: #393e43!important;  
+    }
+    
+    #l_spalert0,#l_spalert1,#l_spalert2,
+    #l_spalert3,#l_spalert4,#l_spalert5,
+	#l_spalert6,#l_spalert7,#l_spalert8,
+	#l_spalert9,#l_spalert10 {
+        color:#e2e2e2!important;    
+    }
+	.t_0,.t_1,.t_2,.t_3,
+	.t_4,.t_5,.t_6,.t_7,
+	.t_8,.t_9,.t_10,.t_11,
+	.t_12,.t_14,.t_15,.t_67,.t_68,.t_69 {	
+		color:#e2e2e2!important;
+	}
+	.data {
+		color: #e2e2e2!important;
+	}
+    #l_magalert {
+        color: #e2e2e2!important;
+    }
+    
+  
+    select {
+        background-color: #242424;
+        color: #e2e2e2;
+    }
+    #tx_slot {
+        background-color: #242424;
+        color: #e2e2e2;
+        border: 1px solid;
+    }
+    
+    .url {
+        background-color: #242424;
+        color: #e2e2e2;
+        border: 1px solid;
+    }
+    
+    a,a:link {
+        color: #fff;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    
+    a:-webkit-any-link {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+    a:visited {
+        color: #adadad;
+        text-decoration: none;
+    }
+    
+    #sl_save {
+        margin-top: 10px;
+    }  
+    
+    #b_save, #b_load {
+        border-color: rgba(0, 0, 0, 0.6);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+        border: 1px solid!important;
+    }
+    
+    #b_save, #b_load {
+        margin-top: 12px;
+        display: inline-block;
+        font-weight: 400;
+        color: #aaa;
+        text-align: center;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: 2px 3px;
+        border-radius: 0.25rem;
+        -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    }
+    
+    button, [type="button"], [type="reset"], [type="submit"] {
+        -webkit-appearance: button;
+    }
+    
+    button, select {
+        text-transform: none;
+    }
+    
+    button, input {
+        overflow: visible;
+    }
+    
+    input, button, select, optgroup, textarea {
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    
+    button {
+        border-radius: 0;
+    }
+    
+}
