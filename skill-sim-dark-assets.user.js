@@ -7,8 +7,8 @@
 // @grant        none
 // @run-at       document-start
 // @namespace    https://arks-layer.com/
-// @updateURL    https://github.com/SynthSy/Arks-Layer-Skill-Sim-Dark/skill-sim-dark-assets.user.js
-// @downloadURL  https://github.com/SynthSy/Arks-Layer-Skill-Sim-Dark/skill-sim-dark-assets.user.js
+// @updateURL    https://synthsy.github.io/Arks-Layer-Skill-Sim-Dark/skill-sim-dark-assets.user.js
+// @downloadURL  https://synthsy.github.io/Arks-Layer-Skill-Sim-Dark/skill-sim-dark-assets.user.js
 // ==/UserScript==
 const activeDiv = document.querySelector('#skilltree');
 activeDiv.setAttribute("class", "tabcontent bg-tweaks bg-dark");
