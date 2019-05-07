@@ -1,4 +1,4 @@
-@-moz-document url-prefix("http"), url-prefix("https"), url-prefix("https://arks-layer.com/skillsim/"), regexp("https?://.arks-layer.com/skillsim/.*") {
+@-moz-document url-prefix("http://arks-layer.com/skillsim/"), url-prefix("https://arks-layer.com/skillsim/"), url-prefix("https://arks-layer.com/skillsim/") {
 /* ==UserStyle==
 @name        Arks-Layer Skill Sim Dark
 @namespace   Arks-Layer
