@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Arks-Layer Skill Sim Dark Theme assets
-// @version      1.0.0
+// @version      1.0.1
 // @description  Adds assets for the Skill Simulator Dark Theme
 // @author       SynthSy
-// @match        https://arks-layer.com/skillsim/*
+// @match        *arks-layer.com/skillsim/*
 // @grant        none
 // @run-at       document-start
-// @namespace    https://arks-layer.com/
+// @namespace    arks-layer.com
 // @updateURL    https://synthsy.github.io/Arks-Layer-Skill-Sim-Dark/skill-sim-dark-assets.user.js
 // @downloadURL  https://synthsy.github.io/Arks-Layer-Skill-Sim-Dark/skill-sim-dark-assets.user.js
 // ==/UserScript==

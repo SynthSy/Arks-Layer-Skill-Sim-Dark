@@ -1,18 +1,14 @@
-@-moz-document domain("arks-layer.com"), url-prefix("https://arks-layer.com/skillsim/") {
+@-moz-document url-prefix("http"), url-prefix("https"), url-prefix("https://arks-layer.com/skillsim/"), regexp("https?://.arks-layer.com/skillsim/.*") {
 /* ==UserStyle==
 @name        Arks-Layer Skill Sim Dark
 @namespace   Arks-Layer
-@version     1.0.1
+@version     1.0.2
 @license     CC-BY-SA-4.0
 @author      SynthSy
 @homepageURL https://github.com/SynthSy/Arks-Layer-Skill-Sim-Dark/
 @updateURL   https://synthsy.github.io/Arks-Layer-Skill-Sim-Dark/arks-layer-skill-sim-dark.user.css
 ==/UserStyle== */
 
-    body {
-        background-color: #242424!important;
-        color: #e2e2e2;
-    }
     table.maintable {
         background-color: #242424!important;
     }
