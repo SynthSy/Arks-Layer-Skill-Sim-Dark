@@ -2,12 +2,43 @@
 /* ==UserStyle==
 @name        Arks-Layer Skill Sim Dark
 @namespace   Arks-Layer
-@version     1.0.3
+@version     1.0.4
 @license     CC-BY-SA-4.0
 @author      SynthSy
 @homepageURL https://github.com/SynthSy/Arks-Layer-Skill-Sim-Dark/
 @updateURL   https://synthsy.github.io/Arks-Layer-Skill-Sim-Dark/arks-layer-skill-sim-dark.user.css
 ==/UserStyle== */
+    
+    .scrollbar {
+        margin-left: 30px;
+        float: left;
+        height: 300px;
+        width: 65px;
+        background: #F5F5F5;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+
+    .force-overflow {
+        min-height: 450px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #222;
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px;
+        background-color: #222;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #3A3F44;
+    }
 
 	body {
 		background-color: #242424;
@@ -144,7 +175,7 @@
         margin-top: 10px;
     }  
     
-    #b_save, #b_load {
+    #b_save, #b_load, div#optionlayer > table > tbody > tr > td > [type="button"] {
         border-color: rgba(0, 0, 0, 0.6);
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
         border: 1px solid!important;
@@ -152,6 +183,13 @@
     
     #b_save, #b_load {
         margin-top: 12px;
+    }
+    
+    div#optionlayer > table > tbody > tr > td > [type="button"] {
+        margin-top: 1px;
+    }
+    
+    #b_save, #b_load, div#optionlayer > table > tbody > tr > td > [type="button"] {
         display: inline-block;
         font-weight: 400;
         color: #aaa;
@@ -170,6 +208,7 @@
         transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
         transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
     }
+    
     
     button, [type="button"], [type="reset"], [type="submit"] {
         -webkit-appearance: button;
