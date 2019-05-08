@@ -2,12 +2,17 @@
 /* ==UserStyle==
 @name        Arks-Layer Skill Sim Dark
 @namespace   Arks-Layer
-@version     1.0.2
+@version     1.0.3
 @license     CC-BY-SA-4.0
 @author      SynthSy
 @homepageURL https://github.com/SynthSy/Arks-Layer-Skill-Sim-Dark/
 @updateURL   https://synthsy.github.io/Arks-Layer-Skill-Sim-Dark/arks-layer-skill-sim-dark.user.css
 ==/UserStyle== */
+
+	body {
+		background-color: #242424;
+		color: #e2e2e2;
+	}
 
     table.maintable {
         background-color: #242424!important;
