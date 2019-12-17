@@ -1,4 +1,4 @@
-# Arks-Layer-Skill-Sim-Dark
+# Arks-Layer Skill Sim Dark Theme
 ![Image of Yaktocat](https://synthsy.github.io/Arks-Layer-Skill-Sim-Dark/sim-preview.png)
 Dark theme for the Skill Simulator found at https://arks-layer.com/skillsim/skillcalc.php
 
