@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name        Arks-Layer Skill Sim Dark
 @namespace   Arks-Layer
-@version     1.0.4
+@version     1.0.5
 @license     CC-BY-SA-4.0
 @author      SynthSy
 @homepageURL https://github.com/SynthSy/Arks-Layer-Skill-Sim-Dark/
@@ -121,19 +121,23 @@
     
     #l_spalert0,#l_spalert1,#l_spalert2,
     #l_spalert3,#l_spalert4,#l_spalert5,
-	#l_spalert6,#l_spalert7,#l_spalert8,
-	#l_spalert9,#l_spalert10 {
+    #l_spalert6,#l_spalert7,#l_spalert8,
+    #l_spalert9,#l_spalert10,#l_spalert11 {
         color:#e2e2e2!important;    
     }
-	.t_0,.t_1,.t_2,.t_3,
-	.t_4,.t_5,.t_6,.t_7,
-	.t_8,.t_9,.t_10,.t_11,
-	.t_12,.t_14,.t_15,.t_67,.t_68,.t_69 {	
-		color:#e2e2e2!important;
-	}
-	.data {
-		color: #e2e2e2!important;
-	}
+	
+    .t_0,.t_1,.t_2,.t_3,
+    .t_4,.t_5,.t_6,.t_7,
+    .t_8,.t_9,.t_10,.t_11,
+    .t_12,.t_14,.t_15,.t_67,
+    .t_68,.t_69,.t_70 {	
+	color:#e2e2e2!important;
+    }
+	
+    .data {
+	color: #e2e2e2!important;
+    }
+	
     #l_magalert {
         color: #e2e2e2!important;
     }
